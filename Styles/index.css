@@ -164,7 +164,15 @@ ul{
     margin-top: 20px;
     font-weight: 500;
 }
-
+.arrows{
+    display: flex;    
+    justify-content: center;
+    gap: 20px;
+}
+.aroow1{
+    height: 50px;
+    width: 50px;
+}
 
 
 
@@ -232,6 +240,9 @@ ul{
         margin: 0;
         margin-left: 5%;
         margin-right: 5%;
+     }
+     .arrows{
+        display: none;
      }
     
     
