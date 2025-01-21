@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-top: 10px;
+    justify-items: center;
+}
+.logo{
+    display: flex;
+}
+nav li a{
+    text-decoration: none;
+    
+}
+nav li {
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.brand{
+   align-content: center;
+}
+.contact{
+    padding-top: 10px;
+}
+.btn-contact{
+    background-color: #FEA301;
+    color: white;
+    height: 36px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+.btn-contact:hover{
+    background-color: white;
+    color: #FEA301;
+    border: 1px solid #01ACFD;
+}
+.color1{
+    color: #FEA301;
+}
+.color2{
+    color: #01ACFD;
+}
+.color3{
+    color: #05D4DF;
+}
+.color4{
+    color: #5D58EF;
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.hamberger{
+    height: 60px;
+    width: 60px;
+    display: none;
+}
+.banner-title{
+    margin-bottom: 15px;
+}
+.btn-enroll{
+    margin-top: 15px;
+    height: 36px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.btn-enroll:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+.banner-pic{
+    margin-top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .brand{
+        display: none;
+
+    }
+    ul{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .hamberger{
+       display: flex;
+       height: 50px;
+       width: 50px;
+       
+       
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .logo{
+        justify-items: center;
+        justify-content: space-around;
+        border-bottom: 2px solid #FEA301;
+        width: 100vw;
+        padding-bottom: 10px;
+    }
+    
+
+    
+    .banner-pic{
+        
+        align-items: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+    }
+    /* .banner-title{
+        text-align: center;
+    } */
+    
+    
+
+}
+ 
