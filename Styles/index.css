@@ -173,8 +173,113 @@ ul{
     height: 50px;
     width: 50px;
 }
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+   /* justify-items: center;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   text-align: center; */
+   gap: 20px;
 
-
+}
+.story-title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.first-layer{
+    
+    
+    width:100%;
+    margin-right: 10%;
+   border: 1px solid #FEA301;
+   border-radius: 10px;
+   
+    
+}
+.second-layer{
+    text-align: center;
+    justify-items: center;
+}
+.third-layer{
+    justify-items: center;
+    text-align: center;
+    
+}
+.first-one{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+    border: 1px solid #FEA301;
+    border-radius: 10px;
+}
+.story-section{
+    background-image: url(../assets/bg.png);
+    background-size: contain;
+    background: linear-gradient(to top, #fff4dc , #ffffff);
+    padding-bottom: 50px;
+    padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+    
+}
+.btn-view{
+    height: 36px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    
+  text-align: center;
+  margin-top: 50px;
+  border: none;
+  border-radius: 10px;
+ 
+ 
+    
+}
+.btn-vall{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-full{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-items: center;
+    background-color: #01ACFD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.about-school{
+    list-style: none;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.school{
+    flex-direction: column;
+}
+.about-school , li a{
+    text-decoration: none;
+    color: white;
+}
+.kids{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.keep{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+}
 
 
 
@@ -244,7 +349,18 @@ ul{
      .arrows{
         display: none;
      }
-    
+     .first-layer{
+        display: none;
+     }
+     .story-container{
+        grid-template-columns:repeat(1 , 1fr) ;
+        width: 100%;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+        
+     }
+     
     
 
 }
