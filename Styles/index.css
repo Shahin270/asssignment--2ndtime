@@ -280,6 +280,54 @@ ul{
     justify-items: center;
     align-content: center;
 }
+.btn-1{
+    height: 36px;
+    width: 150px;
+    margin-top: -60px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #01ACFD;
+    border: none;
+
+}
+.btn-2{
+    height: 36px;
+    width: 150px;
+    margin-top: -60px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #95B226;
+    border: none;
+}
+.btn-3{
+    height: 36px;
+    width: 150px;
+    margin-top: -60px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #5D58EF;
+    border: none;
+}
+.btn-4{
+    height: 36px;
+    width: 150px;
+    margin-top: -60px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #FEA301;
+    border: none;
+}
+.btn-5{
+    height: 36px;
+    width: 150px;
+    margin-top: -60px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #05D4DF;
+    border: none;
+}
+
+
 
 
 
@@ -359,6 +407,17 @@ ul{
         margin: 0;
         padding: 0;
         
+     }
+     .footer-full{
+        grid-template-columns: 1fr;
+        gap: 50px;
+     }
+     .kids-edu{
+        text-align: center;
+     }
+     .kids{
+        align-items: center;
+        justify-items: center;
      }
      
     
